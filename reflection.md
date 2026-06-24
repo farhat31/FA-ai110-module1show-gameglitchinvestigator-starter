@@ -8,15 +8,18 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+The hints were weird, even when I guessed 100 it told me to go higher when I guessed 1 it told me to go lower. The new game button did not work, so I had to refresh the browser. When I pressed the new game button the number of attempts went up to 8. Developer info score and final score were shown differently.
+
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| 5 | Go higher | Go lower | None |
+| 100 | Go lower | Go higher | None |
+| 61 | Go higher | Go lower | None |
+| 63 | Go lower | Go higher | None |
 
 ---
 
