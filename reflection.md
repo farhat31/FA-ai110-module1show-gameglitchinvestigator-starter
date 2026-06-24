@@ -29,7 +29,7 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
----
+I used Claude code for help on this project. All the suggestions AI gave me was pretty much correct. Some of the suggestions were more than what I was asking for but overall for this project it worked. It properly fixed the High/Low logic error as well as the new game error. 
 
 ## 3. Debugging and testing your fixes
 
@@ -38,12 +38,13 @@ Document at least 3 bugs you found. Add rows as needed.
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
----
+The best way to ensure the bug was fixed was to actually play the game afterwards. Also I manually verified the changes before I allowed the AI to make the changes. I had to make sure it was targetting the right areas and changing the proper things. AI helped me design and run a final test after the alterations. 
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+Streamlit is a python framework to build web applications that are dynamic and interactive. Its helpful to make small interactive sites that operate with data. Session state helps retrive user data across the web application.
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -52,3 +53,4 @@ Document at least 3 bugs you found. Add rows as needed.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+I would like to keep checking AI's work for accuracy just to ensure I am making the right changes. Next time I could be a bit more specifc or descriptive in my prompts. This project was the first time I worked simultaneously with AI to edit/generate code so I thought it was a very interesting and cool experience watching it not only make suggestions but to be able to go and make changes as well. 
